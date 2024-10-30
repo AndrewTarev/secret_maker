@@ -22,7 +22,8 @@ API сервис для одноразовых секретов. Он позво
 1. Клонируйте репозиторий на вашу локальную машину:  
    git clone https://github.com/AndrewTarev/secret_maker.git
 
+2. Добавьте файл .env, скопируйте туда шаблон .env.template и вставьте свои переменные
 
-2. Запустите docker-compose командой:  
+3. Запустите docker-compose командой:  
    docker compose build  
    docker compose up

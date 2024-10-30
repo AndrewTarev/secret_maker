@@ -9,7 +9,7 @@ services:
     depends_on:
       - db
     env_file:
-      - .env
+      - .env.template
     networks:
       - my_network
 
