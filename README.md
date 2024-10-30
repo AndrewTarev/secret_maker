@@ -20,7 +20,7 @@ API сервис для одноразовых секретов. Он позво
 ## Установка
 
 1. Клонируйте репозиторий на вашу локальную машину:  
-   git clone https://github.com/AndrewTarev/parking_app.git
+   git clone https://github.com/AndrewTarev/secret_maker.git
 
 
 2. Запустите docker-compose командой:  
