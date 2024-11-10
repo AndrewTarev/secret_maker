@@ -5,8 +5,29 @@ API сервис для одноразовых секретов. Он позво
 
 
 ## Структура проекта:
-
-![image_1.png](image_README/image_1.png)
+```
+.
+├── Dockerfile
+├── README.md
+├── docker-compose.yaml
+├── main.py
+├── requirements.txt
+├── src
+│   ├── api
+│   │   └── api_v1
+│   │       └── routers
+│   │           └── secret_router.py
+│   └── core
+│       ├── config.py
+│       ├── database
+│       │   ├── db_helper.py
+│       │   ├── models.py
+│       │   └── schemas.py
+│       └── utils.py
+└── tests
+    ├── conftest.py
+    └── test_secret.py
+```
 
 ## В проекте были использованы такие библиотеки:
 
